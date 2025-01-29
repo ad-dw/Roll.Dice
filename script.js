@@ -17,11 +17,13 @@ const changeDiceUI = function () {
 };
 
 const rollTheDice = function () {
+  rollBtn.disabled = true;
   randomDiceNumber = Math.trunc(Math.random() * 6) + 1;
   dice.style.animation = "rotation 0.3s infinite linear";
   setTimeout(() => {
     dice.style.animation = "none";
     changeDiceUI();
+    rollBtn.disabled = false;
   }, 1000);
 };
 

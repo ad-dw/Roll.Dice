@@ -50,6 +50,15 @@
   border-radius: 1rem;
   border: none;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.roll:disabled {
+  cursor: not-allowed;
+}
+
+.roll:hover {
+  transform: scale(1.2);
 }
 
 @keyframes rotation {
