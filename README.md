@@ -18,7 +18,7 @@ This is a simple web application for rolling a dice. It generates a random numbe
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ad-dw/Roll.Dice.git
    ```
 2. Navigate to the project directory:
    ```bash
