@@ -22,7 +22,7 @@ This is a simple web application for rolling a dice. It generates a random numbe
    ```
 2. Navigate to the project directory:
    ```bash
-   cd dice-roller
+   cd Roll.Dice
    ```
 3. Open the `index.html` file in your web browser.
 

@@ -24,6 +24,7 @@ const rollTheDice = function () {
     dice.style.animation = "none";
     changeDiceUI();
     rollBtn.disabled = false;
+    rollBtn.focus();
   }, 1000);
 };
 
