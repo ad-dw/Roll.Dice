@@ -72,6 +72,13 @@ body {
   outline-offset: 0.2rem;
 }
 
+#screen-reader-message {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
 @keyframes rotation {
   from {
     opacity: 0;
