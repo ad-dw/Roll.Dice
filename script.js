@@ -5,6 +5,11 @@ let randomDiceNumber = 1;
 const elements = document.querySelectorAll(".num");
 const rollBtn = document.querySelector(".roll");
 const dice = document.querySelector(".dice");
+const screenReaderMessage = document.querySelector("#screen-reader-message");
+
+const updateScreenReaderMessage = function () {
+  screenReaderMessage.textContent = `You rolled ${randomDiceNumber} on the dice.`;
+};
 
 const changeDiceUI = function () {
   for (let i = 0; i < elements.length; i++) {
@@ -26,6 +31,7 @@ const rollTheDice = function () {
     rollBtn.disabled = false;
     rollBtn.focus();
   }, 1000);
+  updateScreenReaderMessage();
 };
 
 changeDiceUI();
